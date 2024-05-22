@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  height: 20px;
+  width: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-gap: 12px;
+  margin: 1em;
+}
+
+.item {
+  min-height: 100px;
+  background-color: blueviolet;
+  color: white;
+}
+
+.grid1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10px, 1fr));
+  grid-gap: 12px;
+  margin: 1em;
+}
+
+.grid1 .item1{
+  display: flex;
+  min-height: 10px;
+  background-color: blueviolet;
+  color: white;
+  justify-content: flex-end;
+}
