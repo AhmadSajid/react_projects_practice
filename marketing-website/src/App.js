@@ -98,7 +98,7 @@ function App() {
     
     <div className='nav'></div>
     <div className='button'>
-    <button type='button'>Contact Us</button>
+    <button type='button'>Contact Us!</button>
     </div>
 </div>
 
